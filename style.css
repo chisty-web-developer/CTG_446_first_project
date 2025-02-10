@@ -392,4 +392,11 @@ footer{
         width:300px;
         height: auto;
     }
+    .sEemOre a{
+        font-size: 12px;
+        justify-content: center;
+    }
+    .icon434{
+        margin-left: 10px;
+    }
 }
