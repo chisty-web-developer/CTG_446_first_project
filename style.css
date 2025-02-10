@@ -235,12 +235,6 @@ hr{
     width: 410px;
     height: auto;
 }
-.feaTured_iMage{
-    width: 40%;
-}
-.feaTured_dEs{
-    width: 60%;
-}
 .feaTured_dEs_head{
     color: #0A0826;
     font-family: "Poppins", serif;
@@ -331,6 +325,7 @@ footer{
     }
     .halfWidth_Image{
         height: 320px;
+        width: auto;
     }
     .halfWidthOne{
         width: 100%;
@@ -349,7 +344,6 @@ footer{
         grid-template-columns: auto auto;
     }
     .feaTured{
-        width: 100%;
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
@@ -381,14 +375,21 @@ footer{
     }
     .feaTured_dEs_head{
         font-size: 30px;
-        
     }
-    .feaTured{
-        width: 100%;
-        align-items: center;
+    .brandLogo{
+        display: grid;
+        grid-template-columns: auto auto;
     }
+    
 }
 
 @media screen and (max-width:488px) {
-    
+    .halfWidth_Image{
+        height: 280px;
+        width: auto;
+    }
+    .feaTured_iMage img{
+        width:300px;
+        height: auto;
+    }
 }
