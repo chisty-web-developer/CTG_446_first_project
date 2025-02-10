@@ -52,8 +52,9 @@ header {
     display: none;
 }
 
-#carT {
+.caRt_size {
     align-items: center;
+    font-size: 15px;
 }
 
 /* ---------------------------header part css end---------------------- */
@@ -70,18 +71,18 @@ header {
 
 .maInTitle {
     color: #3a3a3a;
-    font-size: 50px;
+    font-size: 45px;
     font-family: "Poppins", serif;
     font-weight: 700;
 }
 
-/* .mTitle{
+.mTitle{
     color: #3a3a3a;
-    font-size:52px;
+    font-size:45px;
     font-family: "Poppins", serif;
     font-weight: 700;
     margin-top: -40px;
-}  */
+} 
 
 .m_Spara {
     margin-top: -30px;
@@ -102,17 +103,17 @@ header {
 }
 
 .halfWidthOne {
-    width: 50%;
+    width: 60%;
     margin-top: 80px;
 }
 
 .halfWidthTwo {
-    width: 50%;
+    width: 40%;
 }
 
 .halfWidth_Image {
     width: auto;
-    height: 414px;
+    height: 380px;
 }
 .imgDiv{
     display: flex;
@@ -222,7 +223,7 @@ hr{
 }
 /* -------------------------see more end----------------------- */
 
-/* featured products part started */
+/* ----------------------featured products part started-------------------- */
 .feaTured{
     margin-top: 100px;
     display: grid;
@@ -252,10 +253,56 @@ hr{
     padding: 10px;
     border: none;
 }
+/* --------------------featured part end-------------- */
 
-
-
-
+/* -------------------footer part start----------------- */
+footer{
+    margin-top: 100px;
+    background-color: #0A0826;
+    height: auto;
+    padding: 40px;
+    box-sizing: border-box;
+    color: white;
+}
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.fH{
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 3rem;
+    font-family: "Poppins", serif;
+    margin-bottom: 0px;
+}
+.fcopy{
+    max-width: 500px;
+    margin:0px auto;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0px 10px;
+}
+.list_css a{
+    text-decoration:none;
+    color: #FFFFFF;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    width: 20px;
+}
 
 
 
@@ -273,6 +320,30 @@ hr{
     }
 
     .mainSection_one {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .halfWidth_Image{
+        height: 320px;
+    }
+    .halfWidthOne{
+        width: 100%;
+        justify-content: center;
+        width: auto;
+    }
+    .halfWidthTwo{
+        width: 100%;
+    }
+    .imgDiv{
+        justify-content: center;
+        height: 100%;
+        width: auto;
+    }
+    .card_Parent{
+        grid-template-columns: auto auto;
+    }
+    .feaTured{
+        display: flex;
         flex-direction: column-reverse;
     }
 
