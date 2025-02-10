@@ -235,6 +235,12 @@ hr{
     width: 410px;
     height: auto;
 }
+.feaTured_iMage{
+    width: 40%;
+}
+.feaTured_dEs{
+    width: 60%;
+}
 .feaTured_dEs_head{
     color: #0A0826;
     font-family: "Poppins", serif;
@@ -343,20 +349,44 @@ footer{
         grid-template-columns: auto auto;
     }
     .feaTured{
-        display: flex;
-        flex-direction: column-reverse;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
     }
+    
 
 
 
 }
 
 @media screen and (max-width:834px) {
-
+    .brandLogo{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
 }
 
 @media screen and (max-width:768px) {
-
+    .maInTitle{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .mTitle{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .card_Parent{
+        grid-template-columns: auto;
+    }
+    .feaTured_dEs_head{
+        font-size: 30px;
+        
+    }
+    .feaTured{
+        width: 100%;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width:488px) {
